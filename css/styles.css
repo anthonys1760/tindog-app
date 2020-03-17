@@ -7,19 +7,23 @@ body {
     color: white;
 }
 
-
 h1 {
     font-family: 'Montserrat';
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
+}
 
+h2 {
+    font-family: 'montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
-
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -50,6 +54,8 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 .bold {
@@ -59,9 +65,9 @@ h1 {
 
 #features {
     padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
 }
-
-
 
 .icon {
     color: #ef9172;
@@ -74,4 +80,97 @@ h1 {
 
 .icon:hover {
     color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+#font {
+    font-family: 'Montserrat';
+    font-size: 3.1rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+    padding: 150px 0 20px 0;
+}
+
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 100px;
+}
+
+.element {
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+
+}
+
+.grey {
+    color: grey;
+}
+
+.buttons {
+    position: relative;
+    bottom: 30px;
+
 }
